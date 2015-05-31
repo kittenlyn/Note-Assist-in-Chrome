@@ -1,0 +1,21 @@
+﻿{
+   "background": {
+      "scripts": [ "js/bg.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/16.png",
+      "default_title": "Open..."
+   }, 
+   "icons": {
+      "128": "images/16.png",
+      "16": "images/16.png",
+      "48": "images/16.png"
+   },
+   "manifest_version": 2,  
+   "name": "Note Assist",
+   "permissions": [ "tabs","contextMenus", "storage","*://*/*"],
+   "version": "1.0",
+   "description": "Note Assist - This is a simulation of kindle text selection function.",
+    "web_accessible_resources": [ "css/menu.css"]
+   
+}
